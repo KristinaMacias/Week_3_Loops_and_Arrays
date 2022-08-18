@@ -1,5 +1,13 @@
 <!DOCTYPE HTML>
 <html>
+    <style>
+    div {
+        width: 320px;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+      }
+    </style>
 
 <body>
 
@@ -9,6 +17,15 @@
 
   <p>Hopefully this all prints to the console</p>
 
+  <h3 id="demo" onclick="colorChange()">Click me to change my color.</h3>
+
+<script>
+function colorChange() {
+  document.getElementById("demo").style.color = "blue";
+}
+</script>
+
 </body>
+
 
 </html>
