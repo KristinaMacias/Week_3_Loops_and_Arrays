@@ -69,3 +69,4 @@ arrayTransmorgifier()
     console.log("Zaaap!")
     return console.log(radioactiveFrankenArray)
  }
+arrayTransmorgifierUltra()
